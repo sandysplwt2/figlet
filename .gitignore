@@ -1,0 +1,22 @@
+# Gradle caches
+.gradle/
+
+# Build output
+build/
+
+# Compiled output
+bin/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
