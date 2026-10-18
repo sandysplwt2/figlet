@@ -46,3 +46,9 @@ jobs:
     #
     # - name: Build with Gradle 8.9
     #   run: gradle build
+
+    - name: Upload JAR
+      uses: actions/upload-artifact@v4
+      with:
+        name: figlet-jar
+        path: build/libs/*.jar
